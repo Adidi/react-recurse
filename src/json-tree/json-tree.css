@@ -1,0 +1,32 @@
+.item-box > .title {
+	display: flex;
+	border-radius: 5px;
+	border: 1px solid black;
+	gap: 5px;
+	padding: 0 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.item-box button {
+	margin: 0;
+	padding: 0 5px;
+	background: transparent;
+}
+
+.item-box > .children {
+	padding-left: 20px;
+}
+
+.item-box > .children.hide {
+	display: none;
+}
+
+.item-box .title .text.selected {
+	color: red;
+}
+
+.item-box .title .text.selected-parent {
+	color: green;
+}
